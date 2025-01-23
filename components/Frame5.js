@@ -4,7 +4,7 @@ import Dman from '../assets/Cman.png';
 
 const Frame5 = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-[#7A112D] justify-center items-center"> 
+    <div id="contact" className="min-h-screen flex flex-col bg-[#7A112D] justify-center items-center"> 
       
       {/* Contact Form Section */}
       <div className="container mx-auto px-4 py-8 mt-16 flex flex-col md:flex-row justify-between items-start">
@@ -21,21 +21,17 @@ const Frame5 = () => {
           <button className="mt-4 px-6 py-2 border border-white rounded-md text-white">SUBMIT</button>
         </div>
 
-   
+        {/* Optional Image Section (Commented Out) */}
         {/* <div className="hidden md:block md:w-1/3">
           <Image src={Dman} alt="Delivery person with boxes" className="w-full" />
         </div> */}
       </div>
 
-  
-  
-
       {/* Copyright & Branding */}
       <div className="text-center text-white py-4">
-      <img src="/SPARKLE LOGOS-03.svg" alt="Sparkle Relocations Logo" className="w-250 h-object-contain white-logo" />
+        <img src="/SPARKLE LOGOS-03.svg" alt="Sparkle Relocations Logo" className="w-250 h-object-contain white-logo" />
         <p className="text-sm mt-2">&copy; Sparkle's Relocation Ltd. All rights reserved</p>
       </div>
-      
     </div>
   );
 };

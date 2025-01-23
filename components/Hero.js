@@ -23,13 +23,13 @@ function Hero() {
           <img src="/SPARKLE LOGOS-03.svg" alt="Sparkle Relocations Logo" className="w-250 h-object-contain" /> 
         </div>
         <nav className="space-x-6 text-white">
-          <a href="#" className="hover:text-gray-300">Home</a>
-          <a href="#" className="hover:text-gray-300">About Us</a>
-          <a href="#" className="hover:text-gray-300">Services</a>
-          <a href="#" className="hover:text-gray-300">Blogs</a>
+          <a href="#home" className="hover:text-gray-300">Home</a>
+          <a href="#about" className="hover:text-gray-300">About Us</a>
+          <a href="#services" className="hover:text-gray-300">Services</a>
+          <a href="#blogs" className="hover:text-gray-300">Blogs</a>
 
           {/* Contact Us Button without Sliding Effect */}
-          <a href="#" className="bg-red-700 text-white py-2 px-4 rounded inline-block hover:bg-red-800">
+          <a href="#contact" className="bg-red-700 text-white py-2 px-4 rounded inline-block hover:bg-red-800">
             Contact Us
           </a>
         </nav>

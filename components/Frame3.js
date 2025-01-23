@@ -42,13 +42,13 @@ function ServiceCard({ service }) {
       <div className="relative">
         <Image
           src={service.image}
-          alt={service.title}
+          alt={service.title} 
           width={700} 
-          height={700} className="w-full h-[500px] object-cover" 
+          height={700} className="w-full h-[500px] object-cover text-center" 
         />
-        <div className="absolute bottom-4 left-4 right-4 bg-white p-4 rounded-lg shadow-lg">
-          <div className="flex items-center mb-2">
-            <i className={`${service.icon} ${service.bgColor} text-white p-2 rounded-full mr-2`}></i>
+        <div className="absolute bottom-4 left-4 right-4 bg-white p-4 rounded-lg shadow-lg text-center">
+          <div className="flex items-center mb-2 text-center">
+            <i className={`${service.icon} ${service.bgColor} text-white p-2 rounded-full mr-2  `}></i>
             <h3 className="text-xl font-bold text-black">{service.title}</h3> 
           </div>
           <p className="text-black">{service.description}</p>
@@ -58,7 +58,7 @@ function ServiceCard({ service }) {
   }
 export default function Frame3() {
   return (
-    <div className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
       {services.map((service, index) => (
         <ServiceCard key={index} service={service} />
       ))}

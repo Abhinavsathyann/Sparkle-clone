@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Frame11 from '../assets/Frame11.png'; // If assets is in the root directory
 import Frame12 from '../assets/Frame12.png';
@@ -6,7 +5,7 @@ import Image from 'next/image';
 
 function Frame1() {
   return (
-    <div className="h-screen w-full p-6 bg-white rounded-lg shadow-md">
+    <div id="about" className="h-screen w-full p-6 bg-white rounded-lg shadow-md">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-red-800">About Us</h1>
         <p className="text-gray-700 mt-2">

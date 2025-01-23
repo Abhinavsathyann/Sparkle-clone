@@ -2,14 +2,13 @@ import React from 'react';
 import Image from 'next/image';
 import Liftcar from '../assets/liftcar.png';
 
-
 const Frame2 = () => {
   return (
-    <div className="relative bg-gradient-to-r from-red-700 to-red-900 text-white p-8 md:p-16">
+    <div id="services" className="relative bg-gradient-to-r from-red-700 to-red-900 text-white p-8 md:p-16">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
           <h1 className="text-4xl font-bold mb-4">Our Services</h1>
-          <p className="mb-8">
+          <p className="mb-8 ">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
           </p>

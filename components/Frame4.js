@@ -26,7 +26,7 @@ const Frame4 = () => {
   ];
 
   return (
-    <div className="p-8 bg-gray-100 font-roboto">
+    <div id="blogs" className="p-8 bg-gray-100 font-roboto text-center">
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-red-800">Blogs</h1>
         <p className="text-lg text-gray-700">
