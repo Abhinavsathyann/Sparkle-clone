@@ -3,7 +3,6 @@ import Dman from '../assets/Dman.png';
 import Image from 'next/image';
 
 const Frame4 = () => {
-  // Array to hold the data for the cards
   const cardsData = [
     {
       id: 1,

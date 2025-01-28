@@ -5,8 +5,7 @@ import Dman from '../assets/Cman.png';
 const Frame5 = () => {
   return (
     <div id="contact" className="min-h-screen flex flex-col bg-[#7A112D] justify-center items-center"> 
-      
-      {/* Contact Form Section */}
+   
       <div className="container mx-auto px-4 py-8 mt-16 flex flex-col md:flex-row justify-between items-start">
         <div className="w-full md:w-2/3">
           <h1 className="text-4xl font-bold text-white mb-4">CONTACT US</h1> 

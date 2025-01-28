@@ -49,8 +49,6 @@ function Frame1() {
           </ul>
         </div>
       </div>
-
-      {/* Images Section */}
       <div className="grid md:grid-cols-2 gap-8 mt-8">
         <Image
           src={Frame11}

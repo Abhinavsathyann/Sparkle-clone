@@ -9,14 +9,12 @@ export default function Home() {
   try {
     return (
       <>
-       
         <Hero />
         <Frame1 />
         <Frame2 />
         <Frame3 />
         <Frame4 /> 
         <Frame5 />
-
       </>
     );
   } catch (error) {
